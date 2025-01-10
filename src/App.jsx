@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Heading from './components/Heading'
+import Counter from './components/Counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,10 +11,7 @@ function App() {
   return (
     <>
       <Heading/>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        
+      <Counter/> 
     </>
   )
 }
