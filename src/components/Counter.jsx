@@ -20,9 +20,9 @@ function Counter() {
     <>
     <h4>Number of stitches</h4>
     <p id='count-display'>{count}</p>
-    <button class='counter-button' id='add-button' onClick={add}>+</button>
-    <button class='counter-button' id='subtract-button' onClick={subtract}>-</button>
-    <button class='counter-button' id='reset-button' onClick={reset}>Reset</button>    
+    <button className='counter-button' id='add-button' onClick={add}>+</button>
+    <button className='counter-button' id='subtract-button' onClick={subtract}>-</button>
+    <button className='counter-button' id='reset-button' onClick={reset}>Reset</button>    
     </> );
 }
 
